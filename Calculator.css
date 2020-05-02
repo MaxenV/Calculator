@@ -1,0 +1,84 @@
+body
+{
+/*========================================================
+This pattern is downloaded from www.subtlepatterns.com 
+If you need more, that's where to get'em.
+========================================================*/
+
+
+	background-image: url("img/bg.png");
+	color: #efefef;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.calculator
+{
+	height: 650px;
+	width: 600px;
+	margin: 50px auto;
+}
+
+/*display*/
+
+.display
+{
+	width: fit-content;
+	height: fit-content;
+	text-align: right;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	padding: 1% 4%;
+	border: 3px solid #a9a9a9;
+	border-radius: 5px;
+}
+#equation
+{
+	box-sizing: border-box;
+	margin-left: auto;
+	height: 35px;
+	border-bottom: 2px solid #999;
+	padding-right: 10px;
+	font-size: 2rem;
+}
+#actual_number
+{
+	height: 60px;
+	width: 500px;
+	margin-top: 2%;
+	margin-bottom: 5px;
+	font-size: 3.5rem;
+}
+
+/* keyboard*/
+.numbers
+{
+	font-size: 5rem;
+	margin: 0 20px;
+}
+
+.row
+{
+	display: flex;
+	margin: 20px 0;
+}
+
+.square
+{
+	box-sizing: border-box;
+	height: 100px;
+	width: 161px;
+	border:4px solid #a9a9a9;
+	border-radius: 9px;
+	margin: 0 15px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.square:hover
+{
+	border-color:#fff;
+}
+.square:active
+{
+	border-color: #ffd700;
+}
