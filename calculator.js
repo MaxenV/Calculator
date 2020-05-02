@@ -89,6 +89,7 @@ function equal()
         {
             counter--;
             tab_to_add[counter]=calc_table[i-1]*calc_table[i+1];
+            calc_table[i+1]=calc_table[i-1]*calc_table[i+1];
             counter++;
             second_number = true;
         }
@@ -96,6 +97,7 @@ function equal()
         {
             counter--;
             tab_to_add[counter]=calc_table[i-1]/calc_table[i+1];
+            calc_table[i+1]=calc_table[i-1]/calc_table[i+1];
             counter++;
             second_number = true;
         }
